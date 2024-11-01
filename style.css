@@ -1,0 +1,123 @@
+﻿.container
+{
+    width: 99vw;
+    height: 98vh;
+    display: flex;
+    gap: 1vh;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.container1
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    flex: 1;
+    gap: 1vw;
+}
+
+.container2
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    flex: 1.2;
+    gap: 1vw;
+}
+
+.container3
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    flex: 1.5;
+    gap: 1vw;
+}
+
+.green
+{
+    background-color: #03d09e;
+    border-radius: 10px;
+    width: 33%;
+    height: 100%;
+}
+
+.blue
+{
+    background-color: #4ea6fe;
+    border-radius: 10px;
+    width: 50%;
+    height: 100%;
+}
+
+.red
+{
+    background-color: #fd7574;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 500px)
+{
+    .container1
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        flex: 1;
+        gap: 1vw;
+    }
+
+    .container2
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        flex: 1.2;
+        gap: 1vw;
+    }
+
+    .container3
+    {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        flex: 1.5;
+        gap: 1vw;
+    }
+
+    .green
+    {
+        background-color: #03d09e;
+        border-radius: 10px;
+        width: 100%;
+        height: 33%;
+    }
+
+    .blue
+    {
+        background-color: #4ea6fe;
+        border-radius: 10px;
+        width: 100%;
+        height: 50%;
+    }
+
+    .red
+    {
+        background-color: #fd7574;
+        border-radius: 10px;
+        width: 100%;
+        height: 100%;
+    }
+}
